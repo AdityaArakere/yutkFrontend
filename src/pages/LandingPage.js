@@ -2,8 +2,8 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/esm/Container";
 import yutkWebsiteBanner1 from "../yutkWebsiteBanner1.jpg";
 import yutkWebsiteBanner2 from "../yutkWebsiteBanner2.jpg";
-import yutkPopular from "../yutkPopular.jpg";
-import yutkHoodie from "../yutkHoodie.jpg";
+import yutkPopularT from "../yutkPopularT.jpg";
+import yutkHoodie2 from "../yutkHoodie2.jpg";
 
 function Landing() {
   return (
@@ -33,7 +33,7 @@ function Landing() {
       </Container>
       <div className="container2">
         <div className="img-fluid2">
-          <img src={yutkPopular} alt="banner" className="img-fluid3" />
+          <img src={yutkPopularT} alt="banner" className="img-fluid3" />
           <div className="backdrop2"></div>
           <div className="text1">
             <p>Tshirts</p>
@@ -49,7 +49,7 @@ function Landing() {
           </div>
         </div>
         <div className="img-fluid2">
-          <img src={yutkHoodie} alt="banner" className="img-fluid3" />
+          <img src={yutkHoodie2} alt="banner" className="img-fluid3" />
           <div className="backdrop2"></div>
           <div className="text1">
             <p>Hoodies</p>
