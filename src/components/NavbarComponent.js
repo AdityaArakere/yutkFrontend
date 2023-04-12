@@ -17,7 +17,7 @@ function NavBarFunc() {
             <Navbar.Brand>
               <Link to="/">
                 <Image
-                  src={require("C:/Users/adity/OneDrive/Desktop/jewelWebBoot/yutkFrontEnd/src/images2.JPG")}
+                  src={require("C:/Users/adity/OneDrive/Desktop/jewelWebBoot/yutkFrontEnd/src/images2.jpg")}
                   width={96}
                   height={60}
                 />

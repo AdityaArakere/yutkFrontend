@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/esm/Container";
 import yutkWebsiteBanner1 from "../yutkWebsiteBanner1.jpg";
-import yutkPopular from "../yutkPopular.JPG";
-import yutkHoodie from "../yutkHoodie.JPG";
+import yutkPopular from "../yutkPopular.jpg";
+import yutkHoodie from "../yutkHoodie.jpg";
 
 function Landing() {
   return (
