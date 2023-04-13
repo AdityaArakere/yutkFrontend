@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e208c08.css",
-    "main.js": "/static/js/main.7e34f6c8.js",
+    "main.css": "/static/css/main.979469dc.css",
+    "main.js": "/static/js/main.c277f1df.js",
     "static/media/yutkWebsiteBanner1.jpg": "/static/media/yutkWebsiteBanner1.1ef5e2113e67a7faf1a5.jpg",
-    "static/media/yutkHoodie.JPG": "/static/media/yutkHoodie.ce747e91288882c6231b.JPG",
-    "static/media/yutkPopular.JPG": "/static/media/yutkPopular.abadf2cee1034be91c2a.JPG",
-    "static/media/images2.JPG": "/static/media/images2.d7b4f1474ede8a2458e6.JPG",
+    "static/media/yutkHoodie2.jpg": "/static/media/yutkHoodie2.ce747e91288882c6231b.jpg",
+    "static/media/yutkWebsiteBanner2.jpg": "/static/media/yutkWebsiteBanner2.fd299c1ff6af4bce4dd9.jpg",
+    "static/media/yutkPopularT.jpg": "/static/media/yutkPopularT.abadf2cee1034be91c2a.jpg",
+    "static/media/logo2.jpg": "/static/media/logo2.d7b4f1474ede8a2458e6.jpg",
     "index.html": "/index.html",
-    "main.7e208c08.css.map": "/static/css/main.7e208c08.css.map",
-    "main.7e34f6c8.js.map": "/static/js/main.7e34f6c8.js.map"
+    "main.979469dc.css.map": "/static/css/main.979469dc.css.map",
+    "main.c277f1df.js.map": "/static/js/main.c277f1df.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e208c08.css",
-    "static/js/main.7e34f6c8.js"
+    "static/css/main.979469dc.css",
+    "static/js/main.c277f1df.js"
   ]
 }
