@@ -16,7 +16,7 @@ function NavBarFunc() {
           <Container fluid>
             <Navbar.Brand>
               <Link to="/">
-              <img src={logo2} alt="banner" className="img-fluid4" />
+                <img src={logo2} alt="banner" className="img-fluid4" />
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -27,34 +27,18 @@ function NavBarFunc() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Explore
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <NavDropdown
-                    title="MEN"
+                    title="BAGS"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                     renderMenuOnMount={true}
                   >
-                    <NavDropdown.Item href="https://www.flipkart.com/yutk-solid-men-round-neck-black-t-shirt/p/itm21c1c2b9ed081">Tshirts</NavDropdown.Item>
-                    <NavDropdown.Item href="https://www.amazon.in/Multifunctional-Headwear-Headband-Gaiter-Bandana/dp/B0872TVCB5/ref=sr_1_1?crid=3AIM0JEXT3M46&keywords=yutk+mask&qid=1681329711&sprefix=yutk+mas%2Caps%2C315&sr=8-1">
-                      Masks/Scarfs
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      New arrivals
-                    </NavDropdown.Item>
-                  </NavDropdown>
-
-                  <NavDropdown
-                    title="WOMEN"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                    renderMenuOnMount={true}
-                  >
-                    <NavDropdown.Item href="https://www.flipkart.com/yutk-solid-men-round-neck-black-t-shirt/p/itm21c1c2b9ed081">Tshirts</NavDropdown.Item>
-                    <NavDropdown.Item href="https://www.amazon.in/Multifunctional-Headwear-Headband-Gaiter-Bandana/dp/B0872TVCB5/ref=sr_1_1?crid=3AIM0JEXT3M46&keywords=yutk+mask&qid=1681329711&sprefix=yutk+mas%2Caps%2C315&sr=8-1">
-                      Masks/Scarfs
+                    <NavDropdown.Item href="https://www.amazon.in/YUTK-Outdoor-Casual-Daypack-Adults/dp/B0BW3TZWXD/ref=sr_1_3?crid=11T7X4IU4DI9K&keywords=yutk&qid=1681407599&sprefix=%2Caps%2C267&sr=8-3">
+                      Casual Backpacks
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">
@@ -67,9 +51,17 @@ function NavBarFunc() {
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                     renderMenuOnMount={true}
                   >
-                    <NavDropdown.Item href="https://www.amazon.in/YUTK-Badminton-Squash-Shoulder-7racquet/dp/B0B3MPBPR2/ref=sr_1_1?crid=96L0C8RX0YHB&keywords=yutk&qid=1681329730&sprefix=yutk+mask%2Caps%2C256&sr=8-1">Badminton Kits</NavDropdown.Item>
-                    <NavDropdown.Item href="https://www.amazon.in/YUTK-Outdoor-Casual-Daypack-Adults/dp/B0BW3TZWXD/ref=sr_1_5?crid=96L0C8RX0YHB&keywords=yutk&qid=1681329730&sprefix=yutk+mask%2Caps%2C256&sr=8-5">
-                      Backpacks
+                    <NavDropdown.Item href="https://www.flipkart.com/yutk-badminton-squash-racket-bag-shoulder-bag-7racquet-waterproof-dustproof/p/itm7abe6a8303f92?pid=SPBGMGTKZGJSNBU8&lid=LSTSPBGMGTKZGJSNBU8OF4DD1&marketplace=FLIPKART&store=reh%2Fplk%2Fsan&srno=b_1_1&otracker=product_breadCrumbs_YUTK%20Rucksacks&fm=productRecommendation%2Fsimilar&iid=8604a10c-de50-47c5-886b-0dc8587944f3.SPBGMGTKZGJSNBU8.SEARCH&ppt=browse&ppn=browse&ssid=uyy0jj6qb40000001681408434570">
+                      Standard Badminton Kit
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.flipkart.com/yutk-badminton-squash-racket-bag-shoulder-bag-7racquet-waterproof-dustproof/p/itm6b67c2f4b251c?pid=SPBGMFZZCGZCGGQK&lid=LSTSPBGMFZZCGZCGGQK77MHLF&marketplace=FLIPKART&q=yutk&store=search.flipkart.com&srno=s_1_3&otracker=AS_Query_HistoryAutoSuggest_2_0&otracker1=AS_Query_HistoryAutoSuggest_2_0&fm=organic&iid=b2881c82-9834-41e9-89dc-83d586eaea4e.SPBGMFZZCGZCGGQK.SEARCH&ppt=pp&ppn=pp&ssid=wewp23obps0000001681408347906&qH=92fc2df93a4bdf79">
+                      Orange Badminton Kit
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.amazon.in/YUTK-Badminton-Squash-Shoulder-7racquet/dp/B0BWJKM2SB?ref_=ast_sto_dp">
+                      Green Badminton Kit
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.amazon.in/YUTK-Badminton-Squash-Shoulder-7racquet/dp/B0BNN3BRJP/ref=sr_1_2?crid=11T7X4IU4DI9K&keywords=yutk&qid=1681407599&sprefix=%2Caps%2C267&sr=8-2">
+                      Black Badminton Kit
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">

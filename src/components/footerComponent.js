@@ -27,19 +27,19 @@ function Footer() {
         <div className="footer-col">
           <h3>Follow Us</h3>
           <ul className="social-links">
-            <li><a href="#"><FaFacebook /></a></li>
-            <li><a href="#"><FaTwitter /></a></li>
+            <li><a href="https://www.facebook.com/theyutk?mibextid=LQQJ4d"><FaFacebook /></a></li>
             <li><a href="https://www.instagram.com/the_yutk/?hl=en"><FaInstagram /></a></li>
-            <li><a href="#"><FaLinkedin /></a></li>
           </ul>
         </div>
         <div className="footer-col">
           <h3>Subscribe to our Newsletter</h3>
           <p>Get the latest news and special offers.</p>
-          <form>
+          <p className='subscribe'>Coming Soon</p>
+
+          {/* <form>
             <input type="email" placeholder="Enter your email" />
             <button type="submit">Subscribe</button>
-          </form>
+          </form> */}
         </div>
       </div>
       <div className="footer-bottom">
