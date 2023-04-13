@@ -108,3 +108,8 @@
   background-color: rgba(26, 25, 25, 0.6);
   z-index: 1;
 }
+
+.img-fluid4{
+  width: 96px;
+  height: 60px;
+}

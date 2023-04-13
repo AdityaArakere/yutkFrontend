@@ -5,8 +5,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
+import logo2 from "../logo2.jpg";
 
 function NavBarFunc() {
   return (
@@ -16,11 +16,7 @@ function NavBarFunc() {
           <Container fluid>
             <Navbar.Brand>
               <Link to="/">
-                <Image
-                  src={require("C:/Users/adity/OneDrive/Desktop/jewelWebBoot/yutkFrontEnd/src/logo2.jpg")}
-                  width={96}
-                  height={60}
-                />
+              <img src={logo2} alt="banner" className="img-fluid4" />
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
