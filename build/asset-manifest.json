@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23be7c50.css",
-    "main.js": "/static/js/main.48c3ddae.js",
+    "main.css": "/static/css/main.49d8a2bf.css",
+    "main.js": "/static/js/main.5f589c93.js",
     "static/media/yutkWebsiteBanner1.jpg": "/static/media/yutkWebsiteBanner1.1ef5e2113e67a7faf1a5.jpg",
     "static/media/yutkHoodie2.jpg": "/static/media/yutkHoodie2.ce747e91288882c6231b.jpg",
     "static/media/yutkWebsiteBanner2.jpg": "/static/media/yutkWebsiteBanner2.fd299c1ff6af4bce4dd9.jpg",
@@ -9,11 +9,11 @@
     "static/media/yutkPopularT.jpg": "/static/media/yutkPopularT.abadf2cee1034be91c2a.jpg",
     "static/media/logo2.jpg": "/static/media/logo2.13b46d89c0a62fe6224d.jpg",
     "index.html": "/index.html",
-    "main.23be7c50.css.map": "/static/css/main.23be7c50.css.map",
-    "main.48c3ddae.js.map": "/static/js/main.48c3ddae.js.map"
+    "main.49d8a2bf.css.map": "/static/css/main.49d8a2bf.css.map",
+    "main.5f589c93.js.map": "/static/js/main.5f589c93.js.map"
   },
   "entrypoints": [
-    "static/css/main.23be7c50.css",
-    "static/js/main.48c3ddae.js"
+    "static/css/main.49d8a2bf.css",
+    "static/js/main.5f589c93.js"
   ]
 }
