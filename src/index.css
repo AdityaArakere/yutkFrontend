@@ -15,6 +15,10 @@
   width: 370px;
 }
 
+.dropdown-item{
+  position: relative;
+}
+
 /* .dropdown-menu {
   min-width: 100rem;
 } */
@@ -126,4 +130,12 @@
 
 .container2-button{
   font-size: 1.2vw;
+}
+
+.hotAlign{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  margin: 0px;
+  color: orange;
 }
