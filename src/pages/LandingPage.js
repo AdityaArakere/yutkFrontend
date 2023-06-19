@@ -4,17 +4,87 @@ import yutkWebsiteBanner1 from "../yutkWebsiteBanner1.jpg";
 import yutkWebsiteBanner2 from "../yutkWebsiteBanner2.jpg";
 import yutkPopularT from "../yutkPopularT.jpg";
 import yutkHoodie2 from "../yutkHoodie2.jpg";
+import secondpic from "../second_pic.jpg";
 import bags2 from "../bags2.jpg";
 import bag from "../bag.jpg";
+import React, { useEffect, useState, useRef } from "react";
+
+const imageUrls1 = [yutkWebsiteBanner1, secondpic];
+const imageUrls2 = [yutkWebsiteBanner2, yutkWebsiteBanner2];
+
+const delay = 9500;
 
 function Landing() {
+  const [imageUrls, setImageUrls] = useState(imageUrls1);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setImageUrls(imageUrls2);
+      } else {
+        setImageUrls(imageUrls1);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [imageUrls2, imageUrls1]);
+
+  const [index, setIndex] = useState(0);
+  const timeoutRef = useRef(null);
+
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
+
+  useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(() => {
+      setIndex((prevIndex) =>
+        prevIndex === imageUrls.length - 1 ? 0 : prevIndex + 1
+      );
+    }, delay);
+
+    return () => {
+      resetTimeout();
+    };
+  }, [index]);
+
   return (
     <div className="LandingPage">
       <Container>
-        <picture>
-          <source media="(max-width: 768px)" srcSet={`${yutkWebsiteBanner2}`} />
-          <img src={yutkWebsiteBanner1} alt="Banner" className="img-fluid" />
-        </picture>
+        <div
+          className="slideshowSlider"
+          style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+        >
+          {imageUrls.map((imageUrl, idx) => (
+            <img
+              key={idx}
+              src={imageUrl}
+              alt={`Slide ${idx + 1}`}
+              className="img-fluid"
+            />
+          ))}
+        </div>
+
+        <div className="slideshowDots">
+          {imageUrls.map((_, idx) => (
+            <div
+              key={idx}
+              className={`slideshowDot${index === idx ? " active" : ""}`}
+              onClick={() => {
+                setIndex(idx);
+              }}
+            ></div>
+          ))}
+        </div>
+
         <div className="backdrop1"></div>
         <div className="text1">
           <h1>An online shop with local flair</h1>

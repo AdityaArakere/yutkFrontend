@@ -1,0 +1,16 @@
+.main-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-display{
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-pics{
+    display: flex;
+    height: 10%;
+    width: 30%;
+}

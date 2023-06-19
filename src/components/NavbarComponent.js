@@ -11,7 +11,7 @@ import logo2 from "../logo2.jpg";
 function NavBarFunc() {
   return (
     <>
-      {["xxl"].map((expand) => (
+      {["lg"].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
             <Navbar.Brand>
@@ -61,7 +61,7 @@ function NavBarFunc() {
                     renderMenuOnMount={true}
                   >
                     <NavDropdown.Item href="https://www.amazon.in/YUTK-Outdoor-Casual-Daypack-Adults/dp/B0BW3TZWXD/ref=sr_1_3?crid=11T7X4IU4DI9K&keywords=yutk&qid=1681407599&sprefix=%2Caps%2C267&sr=8-3">
-                      Casual Backpacks
+                      <Link to="/backpack">Casual Backpacks</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">
@@ -79,9 +79,9 @@ function NavBarFunc() {
                   />
                   <Button variant="outline-success">Search</Button>
                 </Form>
-                {/* <div className="LoginIcon">
+                <div className="LoginIcon">
                   <Link to="/login">LOGIN</Link>
-                </div> */}
+                </div>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

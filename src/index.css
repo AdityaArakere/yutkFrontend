@@ -15,7 +15,7 @@
   width: 370px;
 }
 
-.dropdown-item{
+.dropdown-item {
   position: relative;
 }
 
@@ -41,6 +41,7 @@
   margin: 0%;
   padding: 0%;
   position: relative;
+  overflow: hidden;
 }
 
 .img-fluid {
@@ -60,6 +61,7 @@
   height: 100%;
   background-color: rgba(26, 25, 25, 0.6);
   z-index: 1;
+  opacity: 0.8;
 }
 
 .text1 {
@@ -116,6 +118,7 @@
   height: 100%;
   background-color: rgba(26, 25, 25, 0.6);
   z-index: 1;
+  opacity: 0.8;
 }
 
 .img-fluid4 {
@@ -128,14 +131,63 @@
   font-size: smaller;
 }
 
-.container2-button{
+.container2-button {
   font-size: 1.2vw;
 }
 
-.hotAlign{
+.hotAlign {
   display: inline-block;
   position: absolute;
   right: 20px;
   margin: 0px;
   color: orange;
+}
+
+/* Slideshow */
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 0px 15px 0px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
 }
