@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.4facf4e8.css",
-    "main.js": "/static/js/main.4b300358.js",
+    "main.css": "/static/css/main.4087a619.css",
+    "main.js": "/static/js/main.1bad05e7.js",
+    "static/media/yutk_bag.mp4": "/static/media/yutk_bag.4f8c08ca023d0aa5113e.mp4",
+    "static/media/yutk_bag5.JPG": "/static/media/yutk_bag5.7f8245f7b046082450bd.JPG",
     "static/media/yutkWebsiteBanner1.jpg": "/static/media/yutkWebsiteBanner1.1ef5e2113e67a7faf1a5.jpg",
     "static/media/yutkHoodie2.jpg": "/static/media/yutkHoodie2.ce747e91288882c6231b.jpg",
     "static/media/yutkWebsiteBanner2.jpg": "/static/media/yutkWebsiteBanner2.fd299c1ff6af4bce4dd9.jpg",
     "static/media/bags2.jpg": "/static/media/bags2.0ec91b0664882e4d3921.jpg",
     "static/media/bags.jpg": "/static/media/bags.3843d26717b8ce5992b1.jpg",
     "static/media/second_pic.jpg": "/static/media/second_pic.7dcf4d3f570b0651a07d.jpg",
+    "static/media/yutk_bag2.JPG": "/static/media/yutk_bag2.769a53f8680dcb7adf37.JPG",
     "static/media/yutkPopularT.jpg": "/static/media/yutkPopularT.abadf2cee1034be91c2a.jpg",
+    "static/media/yutk_bag3.JPG": "/static/media/yutk_bag3.6914403a0c25b40ef7fd.JPG",
     "static/media/logo2.jpg": "/static/media/logo2.13b46d89c0a62fe6224d.jpg",
+    "static/media/yutk_bag4.JPG": "/static/media/yutk_bag4.ccd299a63477c5aff6cc.JPG",
+    "static/media/yutk_bag1.JPG": "/static/media/yutk_bag1.8539719893bce6938f09.JPG",
+    "static/media/yutk_bag6.JPG": "/static/media/yutk_bag6.c6d47f908b5b7e822100.JPG",
+    "static/media/yutk_bag7.JPG": "/static/media/yutk_bag7.6c4c501e9f43a4c5abe7.JPG",
     "index.html": "/index.html",
-    "main.4facf4e8.css.map": "/static/css/main.4facf4e8.css.map",
-    "main.4b300358.js.map": "/static/js/main.4b300358.js.map"
+    "main.4087a619.css.map": "/static/css/main.4087a619.css.map",
+    "main.1bad05e7.js.map": "/static/js/main.1bad05e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4facf4e8.css",
-    "static/js/main.4b300358.js"
+    "static/css/main.4087a619.css",
+    "static/js/main.1bad05e7.js"
   ]
 }
