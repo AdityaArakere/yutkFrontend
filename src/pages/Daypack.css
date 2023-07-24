@@ -1,0 +1,62 @@
+.main-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-display {
+  width: 150px;
+  height: 90vh;
+  position: sticky;
+  top: 0;
+}
+
+.left-pics {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.left-pics #left-img {
+  margin: auto;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.left-pics #left-img:hover {
+  border: 2px solid;
+  border-color: red; /* Change the border color on hover */
+}
+
+.right-display {
+  margin: 10px;
+  height: 90vh;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.right-display .right-img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+.right-display2 {
+  margin: 10px;
+  width: 600px;
+}
+
+.heading h1{
+  margin: 20px;
+}
+
+.btn-primary{
+  margin-right: 20px;
+}

@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
 import yutkWebsiteBanner1 from "../yutkWebsiteBanner1.jpg";
 import yutkWebsiteBanner2 from "../yutkWebsiteBanner2.jpg";
@@ -106,16 +107,11 @@ function Landing() {
           <div className="backdrop2"></div>
           <div className="text1">
             <p>Backpacks</p>
-            <Button
-              className="container2-button"
-              variant="light"
-              onClick={() =>
-                (window.location.href =
-                  "https://www.amazon.in/YUTK-Outdoor-Casual-Daypack-Adults/dp/B0BW3TZWXD/ref=sr_1_3?crid=11T7X4IU4DI9K&keywords=yutk&qid=1681407599&sprefix=%2Caps%2C267&sr=8-3")
-              }
-            >
-              Shop Now
-            </Button>
+            <Link to="/allbags">
+              <Button className="container2-button" variant="light">
+                Shop Now
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="img-fluid2">
@@ -123,16 +119,11 @@ function Landing() {
           <div className="backdrop2"></div>
           <div className="text1">
             <p>Badminton Kits</p>
-            <Button
-              className="container2-button"
-              variant="light"
-              onClick={() =>
-                (window.location.href =
-                  "https://www.amazon.in/YUTK-Badminton-Squash-Shoulder-5racquet/dp/B0BTP2RRWR/ref=sr_1_5?keywords=yutk+badminton+kit+bag&qid=1681422500&sr=8-5")
-              }
-            >
-              Shop Now
-            </Button>
+            <Link to="/allkits">
+              <Button className="container2-button" variant="light">
+                Shop Now
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
