@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import GreenBag2 from "../3ZipperGreenBagImages/GreenBag2.jpg";
@@ -9,6 +9,11 @@ import GreyBag5 from "../3ZipperGreyBagImages/GreyBag5.jpg";
 import BlackOrangeBag1 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag1.jpg";
 
 function AllKits() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const kitsData = [
     {
       imageSrc: GreenBag2,

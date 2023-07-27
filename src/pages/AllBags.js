@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import GymBag1 from "../GymBagImages/GymBag1.jpg";
@@ -7,6 +7,11 @@ import yutk_bag1 from "../DayPackImages/yutk_bag1.JPG";
 import FannyPack1 from "../FannyPackImages/FannyPack1.jpg";
 
 function AllBags() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);  
+
   const bagsData = [
     {
       imageSrc: GymBag1,
