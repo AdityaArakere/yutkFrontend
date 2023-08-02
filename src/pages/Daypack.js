@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import yutk_bag from "../DayPackImages/yutk_bag.mp4";
+import yutk_bag from "../DayPackImages/yutk_bag8.mp4";
 import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
 import yutk_bag2 from "../DayPackImages/yutk_bag2.jpg";
 import yutk_bag3 from "../DayPackImages/yutk_bag3.jpg";
