@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de7ffeb6.css",
-    "main.js": "/static/js/main.35cfda4f.js",
+    "main.css": "/static/css/main.26eadd2c.css",
+    "main.js": "/static/js/main.a63c2149.js",
     "static/media/GreenBag1.mp4": "/static/media/GreenBag1.16b382e639daed8d5842.mp4",
     "static/media/yutk_bag.mp4": "/static/media/yutk_bag.4f8c08ca023d0aa5113e.mp4",
     "static/media/OrangeBag6.mp4": "/static/media/OrangeBag6.693e25d736866efb67e1.mp4",
@@ -33,8 +33,8 @@
     "static/media/GreenBag7.jpg": "/static/media/GreenBag7.3183d97078821e572e73.jpg",
     "static/media/yutk_bag3.jpg": "/static/media/yutk_bag3.6914403a0c25b40ef7fd.jpg",
     "static/media/BlackBag2.jpg": "/static/media/BlackBag2.a2ce87a69d5b8b37d94a.jpg",
-    "static/media/logo2.jpg": "/static/media/logo2.13b46d89c0a62fe6224d.jpg",
     "static/media/yutk_bag4.jpg": "/static/media/yutk_bag4.ccd299a63477c5aff6cc.jpg",
+    "static/media/logo3.png": "/static/media/logo3.9769496102fc90841870.png",
     "static/media/yutk_bag1.jpg": "/static/media/yutk_bag1.8539719893bce6938f09.jpg",
     "static/media/yutk_bag6.jpg": "/static/media/yutk_bag6.c6d47f908b5b7e822100.jpg",
     "static/media/GymBag4.jpg": "/static/media/GymBag4.e032cdb937e85b0fdf73.jpg",
@@ -51,11 +51,11 @@
     "static/media/yutk_bag7.jpg": "/static/media/yutk_bag7.6c4c501e9f43a4c5abe7.jpg",
     "static/media/OrangeBag7.jpg": "/static/media/OrangeBag7.ff86b65d453670872e6a.jpg",
     "index.html": "/index.html",
-    "main.de7ffeb6.css.map": "/static/css/main.de7ffeb6.css.map",
-    "main.35cfda4f.js.map": "/static/js/main.35cfda4f.js.map"
+    "main.26eadd2c.css.map": "/static/css/main.26eadd2c.css.map",
+    "main.a63c2149.js.map": "/static/js/main.a63c2149.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7ffeb6.css",
-    "static/js/main.35cfda4f.js"
+    "static/css/main.26eadd2c.css",
+    "static/js/main.a63c2149.js"
   ]
 }

@@ -33,7 +33,7 @@ function Product({ name, mrp, price, highlights, description }) {
         <button className="btn btn-primary" onClick={handleWhatsAppButtonClick}>
           Buy Now
         </button>
-        <button className="btn btn-success">Add to Cart</button>
+        {/* <button className="btn btn-success">Add to Cart</button> */}
       </div>
       <div className="card">
         <div className="card-header">About this item:</div>

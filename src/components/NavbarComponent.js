@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link, NavLink } from "react-router-dom";
-import logo2 from "../logo2.jpg";
+import logo4 from "../logo4.png";
 import { NavItem } from "react-bootstrap";
 
 function NavBarFunc() {
@@ -18,7 +18,7 @@ function NavBarFunc() {
           <Container fluid>
             <Navbar.Brand>
               <Link to="/">
-                <img src={logo2} alt="banner" className="img-fluid4" />
+                <img src={logo4} alt="banner" className="img-fluid4" />
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -116,7 +116,7 @@ function NavBarFunc() {
                 <Nav>
                   <Nav.Link>
                     <div className="LoginIcon">
-                      <Link to="/login" className="text-white">LOGIN</Link>
+                      {/* <Link to="/login" className="text-white">LOGIN</Link> */}
                     </div>
                   </Nav.Link>
                 </Nav>

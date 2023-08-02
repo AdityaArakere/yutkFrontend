@@ -278,7 +278,6 @@
 
 .about-us-text {
   position: relative;
-  height: 100vh;
   color: rgb(0, 0, 0);
   margin: 30px;
 }
@@ -322,4 +321,9 @@
 
 .navbar-toggler{
   background-color: white;
+}
+
+.larger-logo {
+  min-height: 200px; /* Adjust the desired height */
+  width: auto; /* Maintain aspect ratio */
 }

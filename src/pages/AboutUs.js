@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import aboutus from "../aboutus1.jpg";
+import logo3 from "../logo3.png";
 
 function AboutUs() {
   return (
     <Container className="about-us">
       <img src={aboutus} alt="banner" className="about-us-bg" />
-      <Row className="about-us-text">
+      <Row className="about-us-text align-items-center">
         <Col md={8}>
           <h2 className="mb-4">About Us</h2>
           <p className="fs-5 fw-bold custom-font">
@@ -36,7 +37,9 @@ function AboutUs() {
             passion for sports and let our products elevate your game to new
             heights.
           </p>
-          {/* Add other paragraphs with the 'fs-5 fw-bold' class */}
+        </Col>
+        <Col md={4} className="text-center">
+          <img src={logo3} alt="logo" className="img-fluid4 larger-logo" />
         </Col>
       </Row>
     </Container>
