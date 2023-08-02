@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import GymBag1 from "../GymBagImages/GymBag1.jpg";
 import CasualBag1 from "../CasualBagImages/CasualBag1.jpg";
-import yutk_bag1 from "../DayPackImages/yutk_bag1.JPG";
+import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
 import FannyPack1 from "../FannyPackImages/FannyPack1.jpg";
 
 function AllBags() {

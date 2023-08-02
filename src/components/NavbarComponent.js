@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import { FaSearch } from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
@@ -7,12 +8,13 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link, NavLink } from "react-router-dom";
 import logo2 from "../logo2.jpg";
+import { NavItem } from "react-bootstrap";
 
 function NavBarFunc() {
   return (
     <>
       {["lg"].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+        <Navbar key={expand} bg="dark" expand={expand} className="mb-3">
           <Container fluid>
             <Navbar.Brand>
               <Link to="/">
@@ -32,13 +34,14 @@ function NavBarFunc() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link>
+                  <Nav.Link className="nav-item">
                     <div className="LoginIcon">
-                      <Link to="/about-us" id="AboutUs">ABOUT US</Link>
+                      <Link to="/about-us" id="AboutUs">
+                        ABOUT US
+                      </Link>
                     </div>
                   </Nav.Link>
                   <NavDropdown
-                  className="fw-bold"
                     title="BADMINTON KITS"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                     renderMenuOnMount={true}
@@ -66,7 +69,6 @@ function NavBarFunc() {
                   </NavDropdown>
 
                   <NavDropdown
-                  className="fw-bold"
                     title="BAGS"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                     renderMenuOnMount={true}
@@ -107,12 +109,14 @@ function NavBarFunc() {
                     className="me-2"
                     aria-label="Search"
                   />
-                  <Button variant="outline-success">Search</Button>
+                  <Button variant="outline-success">
+                    <FaSearch />
+                  </Button>
                 </Form>
                 <Nav>
                   <Nav.Link>
                     <div className="LoginIcon">
-                      <Link to="/login">LOGIN</Link>
+                      <Link to="/login" className="text-white">LOGIN</Link>
                     </div>
                   </Nav.Link>
                 </Nav>

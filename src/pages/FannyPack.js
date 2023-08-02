@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { handleWhatsAppClick } from "./WhatsAppRedirect";
+import Product from "./ProductDetails";
 import "./Daypack.css";
 import FannyPack2 from "../FannyPackImages/FannyPack2.jpg";
 import FannyPack3 from "../FannyPackImages/FannyPack3.jpg";
@@ -18,7 +18,7 @@ function FannyPack() {
       Very useful while walking, cycling, etc.
       Ideal for Men and Women
       material: Made using water-resistant polyester fabric on the outside and polyester fabric on the inside`,
-    description: ``,
+    description: `Top quality from Yutk`,
   };
 
   const imageList = [
@@ -66,38 +66,6 @@ function FannyPack() {
           highlights={product.highlights}
           description={product.description}
         />
-      </div>
-    </div>
-  );
-}
-
-function Product({ name, mrp, price, highlights, description }) {
-  // Split the description into an array of bullet points
-  const bulletPoints = description.split("\n");
-  const bulletPoints2 = highlights.split("\n");
-
-  const handleWhatsAppButtonClick = () => {
-    handleWhatsAppClick();
-  };
-
-  return (
-    <div className="product">
-      <h2>{name}</h2>
-      <p className="mrp">MRP: {mrp}</p>
-      <p className="price h3 font-weight-bold">₹{price}</p>
-      <hr className="my-4" />
-      <h4>Highlights:</h4>
-      <ul className="list-group list-group-flush">
-        {bulletPoints2.map((bullet, index) => (
-          <li key={index}>{bullet}</li>
-        ))}
-      </ul>
-      <hr className="my-4" />
-      <div className="mb-4">
-        <button className="btn btn-primary" onClick={handleWhatsAppButtonClick}>
-          Buy Now
-        </button>
-        <button className="btn btn-success">Add to Cart</button>
       </div>
     </div>
   );

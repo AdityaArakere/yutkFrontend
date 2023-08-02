@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { handleWhatsAppClick } from "./WhatsAppRedirect";
+import Product from "./ProductDetails";
 import "./Daypack.css";
 import yutk_bag from "../DayPackImages/yutk_bag.mp4";
-import yutk_bag1 from "../DayPackImages/yutk_bag1.JPG";
-import yutk_bag2 from "../DayPackImages/yutk_bag2.JPG";
-import yutk_bag3 from "../DayPackImages/yutk_bag3.JPG";
-import yutk_bag4 from "../DayPackImages/yutk_bag4.JPG";
-import yutk_bag5 from "../DayPackImages/yutk_bag5.JPG";
-import yutk_bag6 from "../DayPackImages/yutk_bag6.JPG";
-import yutk_bag7 from "../DayPackImages/yutk_bag7.JPG";
+import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
+import yutk_bag2 from "../DayPackImages/yutk_bag2.jpg";
+import yutk_bag3 from "../DayPackImages/yutk_bag3.jpg";
+import yutk_bag4 from "../DayPackImages/yutk_bag4.jpg";
+import yutk_bag5 from "../DayPackImages/yutk_bag5.jpg";
+import yutk_bag6 from "../DayPackImages/yutk_bag6.jpg";
+import yutk_bag7 from "../DayPackImages/yutk_bag7.jpg";
 
 function Daypack() {
   const product = {
@@ -21,7 +21,7 @@ function Daypack() {
       Closure Type: Zipper; Age Range Description: Kids/Adults
       Capacity: 15 liters; Dimensions: 15 cms x 40 cms x 28 cms (HxWxL))
       Compartments: 1 Big and 1 small Pcoket at front.`,
-    description: ``,
+    description: `Top Quality from Yutk`,
   };
 
   const imageList = [
@@ -77,38 +77,6 @@ function Daypack() {
           highlights={product.highlights}
           description={product.description}
         />
-      </div>
-    </div>
-  );
-}
-
-function Product({ name, mrp, price, highlights, description }) {
-  // Split the description into an array of bullet points
-  const bulletPoints = description.split("\n");
-  const bulletPoints2 = highlights.split("\n");
-
-  const handleWhatsAppButtonClick = () => {
-    handleWhatsAppClick();
-  };
-
-  return (
-    <div className="product">
-      <h2>{name}</h2>
-      <p className="mrp">MRP: {mrp}</p>
-      <p className="price h3 font-weight-bold">₹{price}</p>
-      <hr className="my-4" />
-      <h4>Highlights:</h4>
-      <ul className="list-group list-group-flush">
-        {bulletPoints2.map((bullet, index) => (
-          <li key={index}>{bullet}</li>
-        ))}
-      </ul>
-      <hr className="my-4" />
-      <div className="mb-4">
-        <button className="btn btn-primary" onClick={handleWhatsAppButtonClick}>
-          Buy Now
-        </button>
-        <button className="btn btn-success">Add to Cart</button>
       </div>
     </div>
   );

@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
 import yutkWebsiteBanner1 from "../yutkWebsiteBanner1.jpg";
 import yutkWebsiteBanner2 from "../yutkWebsiteBanner2.jpg";
-import yutkPopularT from "../yutkPopularT.jpg";
-import yutkHoodie2 from "../yutkHoodie2.jpg";
 import secondpic from "../second_pic.jpg";
 import bags2 from "../bags2.jpg";
 import bag from "../bag.jpg";
@@ -90,15 +88,9 @@ function Landing() {
         <div className="text1">
           <h1>An online shop with local flair</h1>
           <p>connect with quality products</p>
-          <Button
-            variant="light"
-            onClick={() =>
-              (window.location.href =
-                "https://www.amazon.in/stores/page/ED895DAE-95F6-4F1E-AC18-7FF0AB1E7E12?ingress=3")
-            }
-          >
-            Shop Now
-          </Button>
+          <Link to="/allproducts">
+            <Button variant="light">Shop Now</Button>
+          </Link>
         </div>
       </Container>
       <div className="container2">

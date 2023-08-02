@@ -23,10 +23,10 @@
   min-width: 100rem;
 } */
 
-.dropdown {
+/* .dropdown {
   width: auto;
   margin-right: 50px;
-}
+} */
 
 /* .navbar-nav {
   width: 100px;
@@ -237,17 +237,26 @@
 
 .mrp {
   text-decoration: line-through;
+  color: red;
 }
 
 .LoginIcon a {
   text-decoration: none;
-  color: #333; /* Customize the color to match the rest of the text */
+  color: white; /* Customize the color to match the rest of the text */
   cursor: pointer;
 }
 
-.LoginIcon #AboutUs {
+.nav-item {
   width: auto;
   margin-right: 50px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: white;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
@@ -274,9 +283,43 @@
   margin: 30px;
 }
 
-.dropdown-item a{
+.dropdown-item a {
   text-decoration: none;
   color: #333; /* Customize the color to match the rest of the text */
   cursor: pointer;
   font-weight: 500;
+}
+
+.after-price {
+  color: green;
+  margin-left: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.price-container {
+  display: flex;
+}
+
+.price-container p {
+  margin-bottom: 0;
+}
+
+/* Custom CSS to override Offcanvas styles */
+.offcanvas.show a{
+  color: black;
+}
+
+.offcanvas .show>.nav-link {
+  color: orange
+}
+
+.offcanvas .show .LoginIcon {
+  color: black
+}
+
+.navbar-toggler{
+  background-color: white;
 }

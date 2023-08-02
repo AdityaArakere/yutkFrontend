@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { handleWhatsAppClick } from "./WhatsAppRedirect";
+import Product from "./ProductDetails";
 import "./Daypack.css";
 import GreenBag1 from "../3ZipperGreenBagImages/GreenBag1.mp4";
 import GreenBag2 from "../3ZipperGreenBagImages/GreenBag2.jpg";
@@ -83,46 +83,6 @@ function GreenBag() {
           highlights={product.highlights}
           description={product.description}
         />
-      </div>
-    </div>
-  );
-}
-
-function Product({ name, mrp, price, highlights, description }) {
-  // Split the description into an array of bullet points
-  const bulletPoints = description.split("\n");
-  const bulletPoints2 = highlights.split("\n");
-  
-  const handleWhatsAppButtonClick = () => {
-    handleWhatsAppClick();
-  };
-
-  return (
-    <div className="product">
-      <h2>{name}</h2>
-      <p className="mrp">MRP: {mrp}</p>
-      <p className="price h3 font-weight-bold">₹{price}</p>
-      <hr className="my-4" />
-      <h4>Highlights:</h4>
-      <ul className="list-group list-group-flush">
-        {bulletPoints2.map((bullet, index) => (
-          <li key={index}>{bullet}</li>
-        ))}
-      </ul>
-      <hr className="my-4" />
-      <div className="mb-4">
-        <button className="btn btn-primary" onClick={handleWhatsAppButtonClick}>Buy Now</button>
-        <button className="btn btn-success">Add to Cart</button>
-      </div>
-      <div className="card">
-        <div className="card-header">About this item:</div>
-        <ul className="list-group list-group-flush">
-          {bulletPoints.map((bullet, index) => (
-            <li key={index} className="list-group-item">
-              {bullet}
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   );

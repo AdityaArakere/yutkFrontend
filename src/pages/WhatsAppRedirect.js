@@ -1,7 +1,7 @@
 import React from "react";
 
 export function handleWhatsAppClick() {
-  const phoneNumber = "1234567890";
+  const phoneNumber = "+917022654913";
   const message = "Hello, I would like to contact you!";
   const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
     message

@@ -19,6 +19,7 @@ import AllKits from "./pages/AllKits";
 import BlackBagThreeZipper from "./pages/3ZipperBlackBag";
 import GreyBag from "./pages/3ZipperGreyBag";
 import BlackOrangeBag from "./pages/3ZipperBlackOrangeBag";
+import AllProducts from "./pages/AllProducts";
 
 function App() {
   useEffect(() => {
@@ -45,7 +46,8 @@ function App() {
           <Route path="/allkits" element={<AllKits />}></Route>
           <Route path="/blackbag3zipper" element={<BlackBagThreeZipper />}></Route>
           <Route path="/greybag" element={<GreyBag />}></Route>
-          <Route path="/blackorangebag" element={<BlackOrangeBag />}></Route>          
+          <Route path="/blackorangebag" element={<BlackOrangeBag />}></Route>
+          <Route path="/allproducts" element={<AllProducts />}></Route>                   
 
         </Routes>
         <Footer />
