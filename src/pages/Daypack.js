@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import yutk_bag from "../DayPackImages/yutk_bag8.mp4";
-import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
+import yutk_bag from "../DayPackImages/yutk_bag1.mp4";
 import yutk_bag2 from "../DayPackImages/yutk_bag2.jpg";
 import yutk_bag3 from "../DayPackImages/yutk_bag3.jpg";
 import yutk_bag4 from "../DayPackImages/yutk_bag4.jpg";
 import yutk_bag5 from "../DayPackImages/yutk_bag5.jpg";
 import yutk_bag6 from "../DayPackImages/yutk_bag6.jpg";
 import yutk_bag7 from "../DayPackImages/yutk_bag7.jpg";
+import yutk_bag8 from "../DayPackImages/yutk_bag8.jpg";
 
 function Daypack() {
   const product = {
@@ -25,13 +25,13 @@ function Daypack() {
   };
 
   const imageList = [
-    { type: "video", src: yutk_bag7 },
-    { type: "image", src: yutk_bag1 },
+    { type: "video", src: yutk_bag8 },
     { type: "image", src: yutk_bag2 },
     { type: "image", src: yutk_bag3 },
     { type: "image", src: yutk_bag4 },
     { type: "image", src: yutk_bag5 },
     { type: "image", src: yutk_bag6 },
+    { type: "image", src: yutk_bag7 },
   ];
 
   const [selectedImage, setSelectedImage] = useState(imageList[0]);

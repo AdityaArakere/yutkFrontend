@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import GymBag1 from "../GymBagImages/GymBag1.jpg";
 import CasualBag1 from "../CasualBagImages/CasualBag1.jpg";
-import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
+import yutk_bag2 from "../DayPackImages/yutk_bag2.jpg";
 import FannyPack1 from "../FannyPackImages/FannyPack1.jpg";
 
 function AllBags() {
@@ -26,7 +26,7 @@ function AllBags() {
       linkTo: "/casualbag",
     },
     {
-      imageSrc: yutk_bag1,
+      imageSrc: yutk_bag2,
       altText: "Day Pack",
       bagType: "Day Pack",
       linkTo: "/daypack",
