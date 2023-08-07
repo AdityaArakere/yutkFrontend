@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import OrangeBag6 from "../3ZipperOrangeBagImages/OrangeBag6.mp4";
-import OrangeBag1 from "../3ZipperOrangeBagImages/OrangeBag1.jpg";
-import OrangeBag2 from "../3ZipperOrangeBagImages/OrangeBag2.jpg";
-import OrangeBag3 from "../3ZipperOrangeBagImages/OrangeBag3.jpg";
-import OrangeBag4 from "../3ZipperOrangeBagImages/OrangeBag4.jpg";
-import OrangeBag5 from "../3ZipperOrangeBagImages/OrangeBag5.jpg";
-import OrangeBag7 from "../3ZipperOrangeBagImages/OrangeBag7.jpg";
+const OrangeBag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag6.mp4"
+const OrangeBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag1.jpg"
+const OrangeBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag2.jpg"
+const OrangeBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag3.jpg"
+const OrangeBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag4.jpg"
+const OrangeBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag5.jpg"
+const OrangeBag7 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag7.jpg"
+
 
 function OrangeBag() {
   const product = {

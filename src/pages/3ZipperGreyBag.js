@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import GreyBag1 from "../3ZipperGreyBagImages/GreyBag1.jpg";
-import GreyBag2 from "../3ZipperGreyBagImages/GreyBag2.jpg";
-import GreyBag3 from "../3ZipperGreyBagImages/GreyBag3.jpg";
-import GreyBag4 from "../3ZipperGreyBagImages/GreyBag4.jpg";
-import GreyBag5 from "../3ZipperGreyBagImages/GreyBag5.jpg";
-import GreyBag6 from "../3ZipperGreyBagImages/GreyBag6.jpg";
+const GreyBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag1.jpg"
+const GreyBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag2.jpg"
+const GreyBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag3.jpg"
+const GreyBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag4.jpg"
+const GreyBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag5.jpg"
+const GreyBag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag6.jpg"
 
 function GreyBag() {
   const product = {

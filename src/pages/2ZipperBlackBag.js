@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import BlackBag1 from "../2ZipperBlackBagImages/BlackBag1.jpg";
-import BlackBag2 from "../2ZipperBlackBagImages/BlackBag2.jpg";
-import BlackBag3 from "../2ZipperBlackBagImages/BlackBag3.jpg";
-import BlackBag5 from "../2ZipperBlackBagImages/BlackBag5.jpg";
-import BlackBag4 from "../2ZipperBlackBagImages/BlackBag4.jpg";
+const BlackBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag1.jpg"
+const BlackBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag2.jpg"
+const BlackBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag3.jpg"
+const BlackBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag4.jpg"
+const BlackBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag5.jpg"
 
 function BlackBag() {
   const product = {

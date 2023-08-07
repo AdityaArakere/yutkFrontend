@@ -14,6 +14,7 @@
   .footer-col {
     flex-basis: 25%;
     margin-bottom: 2rem;
+    text-align: center;
   }
   
   .footer-col h3 {
@@ -38,6 +39,7 @@
   .social-links {
     display: flex;
     margin-top: 1rem;
+    
   }
   
   .social-links li {

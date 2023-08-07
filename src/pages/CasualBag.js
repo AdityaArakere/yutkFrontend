@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import CasualBag1 from "../CasualBagImages/CasualBag1.jpg";
-import CasualBag2 from "../CasualBagImages/CasualBag2.jpg";
-import CasualBag3 from "../CasualBagImages/CasualBag3.jpg";
-import CasualBag4 from "../CasualBagImages/CasualBag4.jpg";
-import CasualBag5 from "../CasualBagImages/CasualBag5.jpg";
-import CasualBag6 from "../CasualBagImages/CasualBag6.jpg";
+const CasualBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag1.jpg"
+const CasualBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag2.jpg"
+const CasualBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag3.jpg"
+const CasualBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag4.jpg"
+const CasualBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag5.jpg"
+const CasualBag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag6.jpg"
 
 function CasualBag() {
   const product = {

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import GreenBag1 from "../3ZipperGreenBagImages/GreenBag1.mp4";
-import GreenBag2 from "../3ZipperGreenBagImages/GreenBag2.jpg";
-import GreenBag3 from "../3ZipperGreenBagImages/GreenBag3.jpg";
-import GreenBag5 from "../3ZipperGreenBagImages/GreenBag5.jpg";
-import GreenBag6 from "../3ZipperGreenBagImages/GreenBag6.jpg";
-import GreenBag7 from "../3ZipperGreenBagImages/GreenBag7.jpg";
-import GreenBag8 from "../3ZipperGreenBagImages/GreenBag8.jpg";
+const GreenBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag1.mp4"
+const GreenBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag2.jpg"
+const GreenBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag3.jpg"
+const GreenBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag5.jpg"
+const GreenBag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag6.jpg"
+const GreenBag7 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag7.jpg"
+const GreenBag8 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag8.jpg"
 
 function GreenBag() {
   const product = {

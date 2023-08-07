@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import GymBag1 from "../GymBagImages/GymBag1.jpg";
-import CasualBag1 from "../CasualBagImages/CasualBag1.jpg";
-import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
-import FannyPack1 from "../FannyPackImages/FannyPack1.jpg";
+const GymBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag1.jpg"
+const CasualBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag1.jpg"
+const yutk_bag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag1.jpg"
+const FannyPack1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack1.jpg"
 
 function AllBags() {
 

@@ -1,12 +1,12 @@
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
-import yutkWebsiteBanner1 from "../yutkWebsiteBanner1.jpg";
-import yutkWebsiteBanner2 from "../yutkWebsiteBanner2.jpg";
-import secondpic from "../second_pic.jpg";
-import bags2 from "../bags2.jpg";
-import bag from "../bag.jpg";
 import React, { useEffect, useState, useRef } from "react";
+const yutkWebsiteBanner1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner1.jpg";
+const yutkWebsiteBanner2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner2.jpg";
+const secondpic = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/second_pic.jpg";
+const bags2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag1.jpg";
+const bag = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag2.jpg";
 
 const imageUrls1 = [yutkWebsiteBanner1, secondpic];
 const imageUrls2 = [yutkWebsiteBanner2, yutkWebsiteBanner2];
@@ -94,11 +94,11 @@ function Landing() {
         </div>
       </Container>
       <div className="container2">
-        <div className="img-fluid2">
-          <img src={bags2} alt="banner" className="img-fluid3" />
+        <div className="img-fluid2-1">
+          <img src={bags2} alt="banner" className="img-fluid3-1" />
           <div className="backdrop2"></div>
           <div className="text1">
-            <p>Backpacks</p>
+            <p>Bags</p>
             <Link to="/allbags">
               <Button className="container2-button" variant="light">
                 Shop Now
@@ -106,8 +106,8 @@ function Landing() {
             </Link>
           </div>
         </div>
-        <div className="img-fluid2">
-          <img src={bag} alt="banner" className="img-fluid3" />
+        <div className="img-fluid2-1">
+          <img src={bag} alt="banner" className="img-fluid3-1" />
           <div className="backdrop2"></div>
           <div className="text1">
             <p>Badminton Kits</p>

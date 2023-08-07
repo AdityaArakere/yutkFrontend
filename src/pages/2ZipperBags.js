@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import BlackBag1 from "../2ZipperBlackBagImages/BlackBag1.jpg";
 import Button from "react-bootstrap/Button";
+const BlackBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag1.jpg"
 
 function TwoZipperBag() {
   return (

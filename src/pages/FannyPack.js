@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import FannyPack2 from "../FannyPackImages/FannyPack2.jpg";
-import FannyPack3 from "../FannyPackImages/FannyPack3.jpg";
-import FannyPack1 from "../FannyPackImages/FannyPack1.jpg";
-import FannyPack4 from "../FannyPackImages/FannyPack4.jpg";
-import FannyPack5 from "../FannyPackImages/FannyPack5.jpg";
+const FannyPack1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack1.jpg"
+const FannyPack2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack2.jpg"
+const FannyPack3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack3.jpg"
+const FannyPack4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack4.jpg"
+const FannyPack5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack5.jpg"
 
 function FannyPack() {
   const product = {

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import GymBag1 from "../GymBagImages/GymBag1.jpg";
-import GymBag2 from "../GymBagImages/GymBag2.jpg";
-import GymBag3 from "../GymBagImages/GymBag3.jpg";
-import GymBag4 from "../GymBagImages/GymBag4.jpg";
-import GymBag5 from "../GymBagImages/GymBag5.jpg";
+const GymBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag1.jpg"
+const GymBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag2.jpg"
+const GymBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag3.jpg"
+const GymBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag4.jpg"
+const GymBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag5.jpg"
 
 function GymBag() {
   const product = {

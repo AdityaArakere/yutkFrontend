@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import yutk_bag from "../DayPackImages/yutk_bag.mp4";
-import yutk_bag1 from "../DayPackImages/yutk_bag1.jpg";
-import yutk_bag2 from "../DayPackImages/yutk_bag2.jpg";
-import yutk_bag3 from "../DayPackImages/yutk_bag3.jpg";
-import yutk_bag4 from "../DayPackImages/yutk_bag4.jpg";
-import yutk_bag5 from "../DayPackImages/yutk_bag5.jpg";
-import yutk_bag6 from "../DayPackImages/yutk_bag6.jpg";
-import yutk_bag7 from "../DayPackImages/yutk_bag7.jpg";
+const yutk_bag = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag.mp4"
+const yutk_bag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag1.jpg"
+const yutk_bag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag2.jpg"
+const yutk_bag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag3.jpg"
+const yutk_bag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag4.jpg"
+const yutk_bag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag5.jpg"
+const yutk_bag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag6.jpg"
+const yutk_bag7 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/DayPackImages/yutk_bag7.jpg"
 
 function Daypack() {
   const product = {

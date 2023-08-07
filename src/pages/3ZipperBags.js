@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import GreenBag2 from "../3ZipperGreenBagImages/GreenBag2.jpg";
-import OrangeBag1 from "../3ZipperOrangeBagImages/OrangeBag1.jpg";
-import BlackBag1 from "../3ZipperBlackBagImages/BlackBag1.jpg";
-import GreyBag5 from "../3ZipperGreyBagImages/GreyBag5.jpg";
-import BlackOrangeBag1 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag1.jpg";
 import Button from "react-bootstrap/Button";
+const GreenBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag2.jpg"
+const OrangeBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag1.jpg"
+const BlackBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackBagImages/BlackBag1.jpg"
+const GreyBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag5.jpg"
+const BlackOrangeBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag1.jpg"
 
 function ThreeZipperBag() {
   return (

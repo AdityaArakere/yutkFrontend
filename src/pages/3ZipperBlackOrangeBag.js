@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-import BlackOrangeBag1 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag1.jpg";
-import BlackOrangeBag2 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag2.jpg";
-import BlackOrangeBag3 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag3.jpg";
-import BlackOrangeBag4 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag4.jpg";
-import BlackOrangeBag5 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag5.jpg";
-import BlackOrangeBag6 from "../3ZipperBlackOrangeBagImages/BlackOrangeBag6.jpg";
+const BlackOrangeBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag1.jpg"
+const BlackOrangeBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag2.jpg"
+const BlackOrangeBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag3.jpg"
+const BlackOrangeBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag4.jpg"
+const BlackOrangeBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag5.jpg"
+const BlackOrangeBag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperBlackOrangeBagImages/BlackOrangeBag6.jpg"
 
 function BlackOrangeBag() {
   const product = {

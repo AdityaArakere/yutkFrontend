@@ -7,8 +7,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link, NavLink } from "react-router-dom";
-import logo4 from "../logo4.png";
 import { NavItem } from "react-bootstrap";
+const logo4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/logo4.png";
 
 function NavBarFunc() {
   return (
@@ -49,14 +49,14 @@ function NavBarFunc() {
                     <NavDropdown.Item>
                       <Link to="/3zipperbag">
                         <div>
-                          3 Zipper Kits <p className="hotAlign">hot!</p>
+                          3 Zipper Badminton/Tennis Kits <p className="hotAlign">hot!</p>
                         </div>
                       </Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                       <Link to="/2zipperbag">
                         <div>
-                          2 Zipper Kits <p className="hotAlign">hot!</p>
+                          2 Zipper Badminton/Tennis Kits <p className="hotAlign">hot!</p>
                         </div>
                       </Link>
                     </NavDropdown.Item>

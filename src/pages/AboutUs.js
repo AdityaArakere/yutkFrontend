@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import aboutus from "../aboutus1.jpg";
-import logo3 from "../logo3.png";
+const aboutus = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/aboutus1.jpg";
+const logo3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/logo3.png"
 
 function AboutUs() {
   return (
