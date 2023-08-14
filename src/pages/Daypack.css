@@ -53,10 +53,37 @@
   width: 600px;
 }
 
-.heading h1{
+.heading h1 {
   margin: 20px;
 }
 
-.btn-primary{
+.btn-primary {
   margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-display {
+    flex-direction: column;
+  }
+
+  .left-display {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .left-pics {
+    flex-direction: row;
+  }
+
+  .right-display {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .right-display .right-img {
+    max-width: 100%;
+    max-height: none;
+  }
 }

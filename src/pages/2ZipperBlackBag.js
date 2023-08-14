@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-const BlackBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag1.jpg"
-const BlackBag2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag2.jpg"
-const BlackBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag3.jpg"
-const BlackBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag4.jpg"
-const BlackBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag5.jpg"
+const BlackBag1 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag1.jpg";
+const BlackBag2 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag2.jpg";
+const BlackBag3 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag3.jpg";
+const BlackBag5 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag4.jpg";
+const BlackBag4 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag5.jpg";
+const BlackBag6 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag6.mp4";
+const BlackBag7 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/2ZipperBlackBagImages/BlackBag7.jpg";
 
 function BlackBag() {
   const product = {
@@ -31,7 +40,8 @@ function BlackBag() {
   };
 
   const imageList = [
-    { type: "video", src: BlackBag1 },
+    { type: "video", src: BlackBag7 },
+    { type: "image", src: BlackBag1 },
     { type: "image", src: BlackBag2 },
     { type: "image", src: BlackBag3 },
     { type: "image", src: BlackBag4 },
@@ -61,11 +71,17 @@ function BlackBag() {
         </div>
       </div>
       <div className="right-display">
-        <img
-          src={selectedImage.src}
-          className="right-img"
-          alt="Selected Image"
-        />
+        {selectedImage.type === "video" ? (
+          <video controls loop autoPlay muted width="480" height="504">
+            <source className="vid" src={BlackBag6} type="video/mp4" />
+          </video>
+        ) : (
+          <img
+            src={selectedImage.src}
+            className="right-img"
+            alt="Selected Image"
+          />
+        )}
       </div>
       <div className="right-display2">
         <Product

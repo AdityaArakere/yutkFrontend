@@ -116,7 +116,7 @@ function NavBarFunc() {
                 <Nav>
                   <Nav.Link>
                     <div className="LoginIcon">
-                      {/* <Link to="/login" className="text-white">LOGIN</Link> */}
+                      <Link to="/login" className="text-white">LOGIN</Link>
                     </div>
                   </Nav.Link>
                 </Nav>

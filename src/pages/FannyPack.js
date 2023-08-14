@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
-const FannyPack1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack1.jpg"
-const FannyPack2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack2.jpg"
-const FannyPack3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack3.jpg"
-const FannyPack4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack4.jpg"
-const FannyPack5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack5.jpg"
+const FannyPack1 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack1.jpg";
+const FannyPack2 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack2.jpg";
+const FannyPack3 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack3.jpg";
+const FannyPack4 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack4.jpg";
+const FannyPack5 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack5.jpg";
+const FannyPack6 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack6.mp4";
+const FannyPack7 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/FannyPackImages/FannyPack7.jpg";
 
 function FannyPack() {
   const product = {
@@ -22,6 +31,7 @@ function FannyPack() {
   };
 
   const imageList = [
+    { type: "video", src: FannyPack7 },
     { type: "image", src: FannyPack1 },
     { type: "image", src: FannyPack2 },
     { type: "image", src: FannyPack3 },
@@ -52,11 +62,17 @@ function FannyPack() {
         </div>
       </div>
       <div className="right-display">
-        <img
-          src={selectedImage.src}
-          className="right-img"
-          alt="Selected Image"
-        />
+        {selectedImage.type === "video" ? (
+          <video controls loop autoPlay muted width="480" height="504">
+            <source className="vid" src={FannyPack6} type="video/mp4" />
+          </video>
+        ) : (
+          <img
+            src={selectedImage.src}
+            className="right-img"
+            alt="Selected Image"
+          />
+        )}
       </div>
       <div className="right-display2">
         <Product

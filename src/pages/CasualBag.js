@@ -7,6 +7,8 @@ const CasualBag3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Image
 const CasualBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag4.jpg"
 const CasualBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag5.jpg"
 const CasualBag6 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag6.jpg"
+const CasualBag7 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag7.mp4"
+const CasualBag8 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/CasualBagImages/CasualBag8.jpg"
 
 function CasualBag() {
   const product = {
@@ -23,6 +25,7 @@ function CasualBag() {
   };
 
   const imageList = [
+    { type: "video", src: CasualBag8 },
     { type: "image", src: CasualBag1 },
     { type: "image", src: CasualBag2 },
     { type: "image", src: CasualBag3 },
@@ -54,11 +57,17 @@ function CasualBag() {
         </div>
       </div>
       <div className="right-display">
-        <img
-          src={selectedImage.src}
-          className="right-img"
-          alt="Selected Image"
-        />
+      {selectedImage.type === "video" ? (
+          <video controls loop autoPlay muted width="480" height="504">
+            <source className="vid" src={CasualBag7} type="video/mp4" />
+          </video>
+        ) : (
+          <img
+            src={selectedImage.src}
+            className="right-img"
+            alt="Selected Image"
+          />
+        )}
       </div>
       <div className="right-display2">
         <Product

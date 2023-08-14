@@ -9,7 +9,6 @@ const OrangeBag4 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Image
 const OrangeBag5 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag5.jpg"
 const OrangeBag7 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperOrangeBagImages/OrangeBag7.jpg"
 
-
 function OrangeBag() {
   const product = {
     name: "YUTK Badminton Squash Tennis Racket Shoulder Bag for 7racquet (3 Zipper Orange Kit Bag)",

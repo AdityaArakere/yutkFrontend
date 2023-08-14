@@ -42,9 +42,13 @@ function Login() {
       username: usernameLogin2,
     }).then((Response) => {
       console.log(Response);
-      if (Response.statusText == "OK") {
-        document.getElementById("OTPdetails").style.display = "inline-block";
-        document.getElementById("OTPdetails2").style.display = "inline-block";
+      if (Response.statusText === "OK") {
+        if (Response.data.message === "SMS sent successfully") {
+          document.getElementById("OTPdetails").style.display = "inline-block";
+          document.getElementById("OTPdetails2").style.display = "inline-block";
+        } else {
+          alert(Response.data.message);
+        }
       } else {
         alert("not works");
       }
