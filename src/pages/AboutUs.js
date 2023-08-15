@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-const aboutus = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/aboutus1.jpg";
+const aboutus = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/aboutus4.jpg";
 const logo3 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/logo3.png"
 
 function AboutUs() {

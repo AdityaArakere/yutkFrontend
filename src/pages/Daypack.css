@@ -53,13 +53,14 @@
   width: 600px;
 }
 
-.heading h1 {
+.heading h1{
   margin: 20px;
 }
 
-.btn-primary {
+.btn-primary{
   margin-right: 20px;
 }
+
 
 @media (max-width: 768px) {
   .main-display {
@@ -70,20 +71,36 @@
     width: 100%;
     height: auto;
     position: static;
+    margin-top: 10px;
   }
 
   .left-pics {
+    display: flex;
     flex-direction: row;
+    width: 100%;
   }
 
   .right-display {
     width: 100%;
-    height: auto;
+    height: 550px;
     position: static;
   }
 
   .right-display .right-img {
     max-width: 100%;
     max-height: none;
+  }
+
+  .right-display2 {
+    margin: 10px;
+    width: 100%;
+  }
+
+  .left-pics #left-img {
+    margin: auto;
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
   }
 }

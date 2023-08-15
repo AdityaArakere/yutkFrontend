@@ -70,7 +70,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 2vw;
+  font-size: 2rem;
   text-align: center;
   z-index: 2;
   font-family: "Poppins", sans-serif;
@@ -81,6 +81,12 @@
   justify-content: center;
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+  }
 }
 /* 
 .img-fluid2 {
@@ -133,7 +139,7 @@
 }
 
 .container2-button {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .hotAlign {
@@ -255,7 +261,8 @@
   color: white;
 }
 
-.nav-link:focus, .nav-link:hover {
+.nav-link:focus,
+.nav-link:hover {
   color: white;
 }
 
@@ -273,7 +280,7 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  transform: scaleX(-1); /* Mirror the image horizontally */
+  /* transform: scaleX(-1);  */
 }
 
 .about-us-text {
@@ -307,19 +314,19 @@
 }
 
 /* Custom CSS to override Offcanvas styles */
-.offcanvas.show a{
+.offcanvas.show a {
   color: black;
 }
 
-.offcanvas .show>.nav-link {
-  color: orange
+.offcanvas .show > .nav-link {
+  color: orange;
 }
 
 .offcanvas .show .LoginIcon {
-  color: black
+  color: black;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: white;
 }
 
@@ -328,7 +335,7 @@
   width: auto; /* Maintain aspect ratio */
 }
 
-.contact-us{
+.contact-us {
   height: 50vh;
   margin: 20px;
 }
