@@ -88,6 +88,7 @@
     flex-direction: column;
   }
 }
+
 /* 
 .img-fluid2 {
   position: relative;
@@ -239,6 +240,12 @@
 .img-fluid2-1:hover .text1 {
   color: rgb(203, 149, 49);
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .img-fluid2-1 {
+    width: auto;
+  }
 }
 
 .mrp {

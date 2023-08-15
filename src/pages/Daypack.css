@@ -68,10 +68,14 @@
   }
 
   .left-display {
-    width: 100%;
+    width: 98%;
     height: auto;
     position: static;
     margin-top: 10px;
+  }
+
+  .left-pics {
+    overflow-x: auto;
   }
 
   .left-pics {
@@ -81,7 +85,7 @@
   }
 
   .right-display {
-    width: 100%;
+    width: 95%;
     height: 550px;
     position: static;
   }
@@ -93,7 +97,7 @@
 
   .right-display2 {
     margin: 10px;
-    width: 100%;
+    width: 95%;
   }
 
   .left-pics #left-img {
