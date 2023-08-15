@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
 const GreyBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreyBagImages/GreyBag1.jpg"
@@ -46,6 +46,11 @@ function GreyBag() {
   const handleImageSelect = (image) => {
     setSelectedImage(image);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
     <div className="main-display">

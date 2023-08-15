@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Product from "./ProductDetails";
 import "./Daypack.css";
 const GreenBag1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag1.mp4"
@@ -45,6 +45,11 @@ function GreenBag() {
   const handleImageSelect = (image) => {
     setSelectedImage(image);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
     <div className="main-display">
