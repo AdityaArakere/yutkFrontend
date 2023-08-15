@@ -130,11 +130,11 @@ function NavBarFunc() {
                 </Form>
                 <Nav>
                   <Nav.Link>
-                    <div className="LoginIcon">
-                      {/* <Link to="/login" className="text-white">
+                    {/* <div className="LoginIcon">
+                      <Link to="/login" className="text-white">
                         LOGIN
-                      </Link> */}
-                    </div>
+                      </Link>
+                    </div> */}
                   </Nav.Link>
                 </Nav>
               </Offcanvas.Body>
