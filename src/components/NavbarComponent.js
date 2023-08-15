@@ -49,7 +49,7 @@ function NavBarFunc() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link className="nav-item">
                     <div className="LoginIcon">
-                      <Link to="/about-us" id="AboutUs">
+                      <Link to="/about-us" id="AboutUs" onClick={closeOffcanvas}>
                         ABOUT US
                       </Link>
                     </div>
@@ -131,9 +131,9 @@ function NavBarFunc() {
                 <Nav>
                   <Nav.Link>
                     <div className="LoginIcon">
-                      <Link to="/login" className="text-white">
+                      {/* <Link to="/login" className="text-white">
                         LOGIN
-                      </Link>
+                      </Link> */}
                     </div>
                   </Nav.Link>
                 </Nav>

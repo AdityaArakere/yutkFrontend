@@ -2,19 +2,26 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
 import React, { useEffect, useState, useRef } from "react";
-const yutkWebsiteBanner1 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner1.jpg";
-const yutkWebsiteBanner2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner2.jpg";
-const secondpic = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/second_pic.jpg";
-const bags2 = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag1.jpg";
-const bag = "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag2.jpg";
+const yutkWebsiteBanner1 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner1.jpg";
+const yutkWebsiteBanner2 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner2.jpg";
+const secondpic =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/second_pic.jpg";
+const bags2 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/GymBagImages/GymBag1.jpg";
+const bag =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag2.jpg";
 
-const imageUrls1 = [yutkWebsiteBanner1, secondpic];
+const imageUrls1 = [yutkWebsiteBanner1, yutkWebsiteBanner1];
 const imageUrls2 = [yutkWebsiteBanner2, yutkWebsiteBanner2];
 
 const delay = 9500;
 
 function Landing() {
-  const [imageUrls, setImageUrls] = useState(imageUrls1);
+  const [imageUrls, setImageUrls] = useState(
+    window.innerWidth > 768 ? imageUrls1 : imageUrls2
+  );
 
   useEffect(() => {
     const handleResize = () => {

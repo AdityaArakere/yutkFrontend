@@ -281,8 +281,8 @@
 
 .about-us-bg {
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -346,3 +346,28 @@
   height: 50vh;
   margin: 20px;
 }
+
+@media (max-width: 768px) {
+  .about-us-bg {
+    height: 100%;
+    width: auto;
+  }
+
+  .larger-logo {
+    min-height: 150px; /* Adjust the desired height */
+    width: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* For desktop mode */
+.desktop-background {
+  background-image: url('https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner1.jpg');
+  /* Other background properties */
+}
+
+/* For mobile mode */
+.mobile-background {
+  background-image: url('https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner2.jpg');
+  /* Other background properties */
+}
+
