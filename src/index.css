@@ -238,7 +238,7 @@
 }
 
 .img-fluid2-1:hover .text1 {
-  color: rgb(203, 149, 49);
+  /* color: rgb(203, 149, 49); */
   font-weight: bold;
 }
 
@@ -357,17 +357,5 @@
     min-height: 150px; /* Adjust the desired height */
     width: auto; /* Maintain aspect ratio */
   }
-}
-
-/* For desktop mode */
-.desktop-background {
-  background-image: url('https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner1.jpg');
-  /* Other background properties */
-}
-
-/* For mobile mode */
-.mobile-background {
-  background-image: url('https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner2.jpg');
-  /* Other background properties */
 }
 

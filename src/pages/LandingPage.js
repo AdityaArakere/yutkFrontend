@@ -2,10 +2,11 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
 import React, { useEffect, useState, useRef } from "react";
+// import yutkWebsiteBanner3 from "../Images/yutkWebsiteBanner3.jpg";
 const yutkWebsiteBanner1 =
   "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner1.jpg";
-const yutkWebsiteBanner2 =
-  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner2.jpg";
+const yutkWebsiteBanner3 =
+  "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/yutkWebsiteBanner3.jpg";
 const secondpic =
   "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/second_pic.jpg";
 const bags2 =
@@ -13,8 +14,10 @@ const bags2 =
 const bag =
   "https://images-bucket-yutk.s3.eu-north-1.amazonaws.com/Images/3ZipperGreenBagImages/GreenBag2.jpg";
 
+
+
 const imageUrls1 = [yutkWebsiteBanner1, yutkWebsiteBanner1];
-const imageUrls2 = [yutkWebsiteBanner2, yutkWebsiteBanner2];
+const imageUrls2 = [yutkWebsiteBanner3, yutkWebsiteBanner3];
 
 const delay = 9500;
 
